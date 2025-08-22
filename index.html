@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Fangame Mario Pocket</title>
+<link rel="stylesheet" href="mario.css">
+</head>
+<body>
+<div id="gameArea">
+  <img id="fondo" src="assets/nivel/level1.png">
+  <img id="piso" src="assets/nivel/piso.png">
+  <div id="mario"></div>
+</div>
+
+<!-- Controles estilo PlayStation -->
+<div id="controles">
+  <div class="dpad">
+    <button id="up">⬆️</button>
+    <div class="middle-row">
+      <button id="left">⬅️</button>
+      <div style="width:50px; display:inline-block;"></div> <!-- espacio -->
+      <button id="right">➡️</button>
+    </div>
+    <button id="down">⬇️</button>
+  </div>
+
+  <div class="buttons">
+    <button id="a">A</button>
+    <button id="y">Y</button>
+    <button id="b">B</button>
+  </div>
+</div>
+
+<button id="fullscreenBtn">⛶</button>
+
+<script src="mario.js"></script>
+</body>
+</html>
